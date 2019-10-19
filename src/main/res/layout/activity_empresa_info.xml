@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Empresas.EmpresaInfo">
+
+    <TextView
+        android:id="@+id/empName"
+        android:layout_width="194dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="69dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/empStand"
+        android:layout_width="86dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="177dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empName" />
+
+    <TextView
+        android:id="@+id/emp_com_pre"
+        android:layout_width="198dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="65dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empStand" />
+
+    <TextView
+        android:id="@+id/emp_com_post"
+        android:layout_width="198dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="65dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emp_com_pre" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

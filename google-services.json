@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "151744546931",
+    "firebase_url": "https://ferias-f9ce0.firebaseio.com",
+    "project_id": "ferias-f9ce0",
+    "storage_bucket": "ferias-f9ce0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151744546931:android:ca2feffe788e92b1554206",
+        "android_client_info": {
+          "package_name": "com.example.ferias"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151744546931-hsj8036lag549fnagpahv222ar5pbt9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw5T7YCQ4O0bHogGUPw4HD1MIY8A4G0sY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151744546931-hsj8036lag549fnagpahv222ar5pbt9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
